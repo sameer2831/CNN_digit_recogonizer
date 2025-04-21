@@ -70,27 +70,20 @@ model.compile(optimizer='adam',
   
  Training and validation accuracy/loss over epochs are plotted to evaluate convergence and overfitting.
 
-- 📌 Label Distribution
-  
- Bar plot showing how digits are distributed in the training set.
+### 📌 Label Distribution
+  - Bar plot showing how digits are distributed in the training set.
 
-- 📉 Confusion Matrix (on validation set)
-  
- Reveals which digits the model struggles with the most.
+### 📉 Confusion Matrix (on validation set)
+  - Reveals which digits the model struggles with the most.
 
-- ❌ Misclassified Examples
-  
- Visuals of digits that were incorrectly predicted, showing true and predicted labels.
+### ❌ Misclassified Examples
+  - Visuals of digits that were incorrectly predicted, showing true and predicted labels.
 
-- 🧪 Evaluation Metrics
-  
- **Accuracy**: Achieved over 98% on validation set.
-
- **Loss**: Stable convergence, indicating no overfitting.
-
- **Confusion Matrix**: Shows strong diagonal indicating good predictions.
-
- **Classification Report**: Precision, recall, and F1-score across digits.
+### 🧪 Evaluation Metrics
+  - **Accuracy**: Achieved over 98% on validation set.
+  - **Loss**: Stable convergence, indicating no overfitting.
+  - **Confusion Matrix**: Shows strong diagonal indicating good predictions.
+  - **Classification Report**: Precision, recall, and F1-score across digits.
 
 ## 🧾 Prediction & Submission
 ```
